@@ -1,0 +1,36 @@
+<div data-dojo-attach-point="mainCalDiv">
+<span data-dojo-attach-point="errorSpan" style="color:red;"></span>
+<table style="width:100%;">
+<tr>
+<td style="width:50%;">Enter First number</td>
+<td style="width:50%;">
+	<input data-dojo-attache-point="firstNumber" data-dojo-type="dijit/form/ValidationTextBox"
+	data-dojo-props="regExp:'^[0-9]+$',invalidMessage:'invalid input'"
+	/>
+</td>
+</tr>
+<tr>
+<td style="width:50%;">Enter Second Number</td>
+<td style="width:50%;">
+	<input data-dojo-attache-point="secondNumber" data-dojo-type="dijit/form/ValidationTextBox"
+	data-dojo-props="regExp:'^[0-9]+$',invalidMessage:'invalid input'"
+	/>
+</td>
+</tr>
+<tr>
+<td style="width:50%;">Enter Operator</td>
+<td style="width:50%;">
+	<input data-dojo-attache-point="operator" data-dojo-type="dijit/form/ValidationTextBox"
+	data-dojo-props="regExp:'^[*+-/\]',invalidMessage:'invalid input'"
+	/>
+</td>
+</tr>
+<tr>
+<td style="width:50%;">Result</td>
+<td style="width:50%;">
+	<input data-dojo-attache-point="result" readonly="readonly"
+	/>
+</td>
+</tr>
+</table>
+</div>
